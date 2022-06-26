@@ -10,3 +10,5 @@ bot.start(ctx => {
 bot.command('test', ctx => {
     ctx.reply('Working');
 });
+
+bot.launch();
